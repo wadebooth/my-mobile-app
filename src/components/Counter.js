@@ -6,7 +6,7 @@ export default function Counter() {
   return (
     <View style={styles.counterContainer}>
       <Text style={styles.counterText}>
-        You clicked the button {count} times.
+        You pushed the button {count} times.
       </Text>
       <Button title="+" onPress={() => setCount(count + 1)} />
       <Button title="Reset" onPress={() => setCount(count * 0)} />
